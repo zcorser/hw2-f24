@@ -49,21 +49,21 @@ div{
     text-align: left;
     margin-right: 50px;
     border-width: 2px 5px 0px 0px;
-    h2{
-        color: #C4C4C4;
-    }
-    p{
-        color: #C4C4C4;
-    }
+}
+.blue h2{
+    color: #C4C4C4;
+}
+.blue p{
+    color: #C4C4C4;
 }
 .yellow{
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
     border-width: 0px 0px 2px 5px;
-    p{
-        color: #707070;
-    }
+}
+.yellow p{
+    color: #707070;
 }
 .green{
     background-color: #008500;
@@ -78,9 +78,9 @@ footer{
     border-style: solid;
     border-width: 5px;
     border-color: #ffffff;
-    p{
-        text-align: right;
-        font-size: 20px;
-        padding: 15px 15px 15px 0px;
-    }
+}
+footer > p{
+    text-align: right;
+    font-size: 20px;
+    padding: 15px 15px 15px 0px;
 }
